@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package sensocare.messages;
+
+message Measure {
+    required uint64 timestamp = 1;
+    required float32 value = 2;
+}
