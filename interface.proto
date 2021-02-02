@@ -1,10 +1,13 @@
-syntax = "proto2";
+syntax = "proto3";
 
 package sensocare.messages;
 
 option go_package = "pkg/messages;messages";
 
 message Measure {
-    required uint64 timestamp = 1;
-    required float value = 2;
+    int64 timestamp = 1;
+    oneof value {
+        float fValue = 2;
+        int32 iValue = 3;
+    }
 }
