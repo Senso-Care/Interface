@@ -1,0 +1,9 @@
+name=Sensocare Interface
+version=1.0.2
+author=Sensocare
+maintainer=Sensocare
+sentence=Sensocare interface is the library to communicate between sensors and unstacker through mqtt server
+paragraph=Sensocare interface is the library to communicate between sensors and unstacker through mqtt server
+category=Interface
+url=https://github.com/Senso-Care/Interface
+architectures=*
